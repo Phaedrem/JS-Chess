@@ -23,3 +23,8 @@ Drag-and-drop mechanics using native JavaScript
 Basic move validation and turn logic
 
 Styling for accessibility (color contrast, outlines, responsive layout)
+
+
+## Known Issues
+
+Seems to run correctly in chromium browsers but fails to validate moves correctly in Firefox. 
