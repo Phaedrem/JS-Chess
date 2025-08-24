@@ -12,7 +12,7 @@
 }
 
 .square svg {
-    height: 30px;
+    height: 26px;
     width: 30px;
     margin: 5px;
     position: relative;
@@ -30,11 +30,11 @@ path {
 }
 
 .beige {
-    background-color: rgb(235, 236, 208);
+    background-color: rgb(238 , 238, 210);
 }
 
 .brown{
-    background-color: rgb(119, 149, 86);
+    background-color: rgb(118, 150, 86);
 }
 
 .black {
@@ -42,5 +42,15 @@ path {
 }
 
 .white {
-    fill: white
+    fill: rgb(255, 255, 255)
+}
+
+.white path {
+  stroke: black;
+  stroke-width: 20;
+}
+
+.black path {
+  stroke: white;
+  stroke-width: 10;
 }
