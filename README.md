@@ -1,7 +1,25 @@
 ## About This Project
 
-This repository is based on a YouTube tutorial by [Ania Kubów](https://youtu.be/Qv0fvm5B0EM) I followed to build a simple JavaScript chess game.  
-Since the tutorial was made a few years ago, some of the functionality and APIs used in the video have since changed.  
-Because of that, the project is currently a **work in progress** and does not behave exactly as it did in the tutorial.  
+♟️ Browser-Based Chess Game
 
-My goal is to update and adapt the code so it works with the current standards, while still keeping the original learning experience in mind.
+This is a playable chess game built with HTML, CSS, and JavaScript, designed to run entirely in the browser — no downloads or installations required.
+
+[Play it here](https://phaedrem.github.io/JS-Chess/)
+
+
+## Based on
+
+This project was built by following the tutorial by [Ania Kubów](https://youtu.be/Qv0fvm5B0EM).
+
+
+## What I Learned
+
+How to structure a web app using index.html, style.css, and modular JavaScript files
+
+DOM manipulation to build and control a chess board grid
+
+Drag-and-drop mechanics using native JavaScript
+
+Basic move validation and turn logic
+
+Styling for accessibility (color contrast, outlines, responsive layout)
