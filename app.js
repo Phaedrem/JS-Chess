@@ -2,8 +2,8 @@ const gameBoard = document.querySelector("#gameboard") // # for an ID
 const playerDisplayer = document.querySelector("#player")
 const infoDisplay = document.querySelector("#info-display")
 const width = 8
-let playerGo = 'black'
-playerDisplayer.textContent = 'black'
+let playerGo = 'white'
+playerDisplayer.textContent = 'white'
 
 const startPieces = [ // Set the starting location for each piece
     rook, knight, bishop, queen, king, bishop, knight, rook,
@@ -311,6 +311,7 @@ function checkForWin(){
         allSquares.forEach(square => square.firstChild?.setAttribute('draggable', false))
     }
 }
+
 
 
 
