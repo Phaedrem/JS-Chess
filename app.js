@@ -38,6 +38,7 @@ function createBoard() { // Creates the chess board, alternating each square's c
             square.firstChild.firstChild.classList.add('white')
         }
         gameBoard.append(square)
+        reverseIds()
     })
 }
 createBoard() // Calls function
@@ -311,6 +312,7 @@ function checkForWin(){
         allSquares.forEach(square => square.firstChild?.setAttribute('draggable', false))
     }
 }
+
 
 
 
